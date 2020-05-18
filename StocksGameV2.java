@@ -2,7 +2,6 @@ import java.util.Random;
 public class StocksGameV2 {
 
 	public static void main(String[] args) {
-		Random rand = new Random();
 		
 		int cheepStockMinValue = 5;
 		int cheepStockMaxValue = 10;
@@ -37,7 +36,7 @@ public class StocksGameV2 {
 		//------------------------------
 		
 		/*
-		 * AIMON Stock = flexableStock1, Direxion Gold Miners = inflatedStock1, highStock1 = highStock1, adequateStock1 = adequateStock1, mediumStock1 = mediumStock1, cheepStock1 = cheepStock1
+		 * AIMON Stock = flexableStock1, Direxion Gold Miners = inflatedStock1, highStock1 = highStock1, adequateStock1 = adequateStock1, mediumStock1 = mediumStock1, cheepStock1 = cheepStock1 
 		 */
 		
 		System.out.println("Aymaan's Shaikh Stock Generator!");
