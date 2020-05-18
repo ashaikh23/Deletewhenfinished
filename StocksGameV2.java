@@ -38,7 +38,6 @@ public class StocksGameV2 {
 		
 		/*
 		 * AIMON Stock = flexableStock1, Direxion Gold Miners = inflatedStock1, highStock1 = highStock1, adequateStock1 = adequateStock1, mediumStock1 = mediumStock1, cheepStock1 = cheepStock1
-		 * 
 		 */
 		
 		System.out.println("Aymaan's Shaikh Stock Generator!");
