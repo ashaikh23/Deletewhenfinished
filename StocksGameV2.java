@@ -22,7 +22,7 @@ public class StocksGameV2 {
 		int flexableStockMinValue = 5;
 		int flexableStockMaxValue = 600000;
 				
-		int x = (int)(Math.random());
+		//------------------------------
 		int cheepStock1 = (int)(Math.random() * (cheepStockMaxValue-cheepStockMinValue+1)+cheepStockMinValue);
 		
 		int mediumStock1 = (int)(Math.random() *  (mediumStockMaxValue-mediumStockMinValue+1)+mediumStockMinValue);
@@ -34,18 +34,29 @@ public class StocksGameV2 {
 		int inflatedStock1 = (int)(Math.random() * (inflatedStockMaxValue-inflatedStockMinValue+1) + inflatedStockMinValue);
 		
 		int flexableStock1 = (int)(Math.random() * (flexableStockMaxValue-flexableStockMinValue+1) + flexableStockMinValue);
+		//------------------------------
 		
+		/*
+		 * AIMON Stock = flexableStock1, Direxion Gold Miners = inflatedStock1, highStock1 = highStock1, adequateStock1 = adequateStock1, mediumStock1 = mediumStock1, cheepStock1 = cheepStock1
+		 * 
+		 */
 		
 		System.out.println("Aymaan's Shaikh Stock Generator!");
-		
-		System.out.println("cheepStock1 "+cheepStock1);
-		System.out.println("mediumStock1 "+mediumStock1);
-		System.out.println("adequateStock1 "+adequateStock1);
+		System.out.println("\n");
+		System.out.println("AIMON Stock: $" + flexableStock1 );
+		System.out.println("Direxion Gold Miners: $" + inflatedStock1);
 		System.out.println("highStock1 "+highStock1);
-		System.out.println("inflatedStock1 "+inflatedStock1);
-		System.out.println("flexableStock1 " + flexableStock1);
+		System.out.println("adequateStock1 "+adequateStock1);
+		System.out.println("mediumStock1 "+mediumStock1);
+		System.out.println("cheepStock1 "+cheepStock1);
 		
-
-		
+		System.out.println("----------------------------------");
+		System.out.println(flexableStock1);
+		System.out.println(inflatedStock1);
+		System.out.println(highStock1);
+		System.out.println(adequateStock1);
+		System.out.println(mediumStock1);
+		System.out.println(cheepStock1);
+			
 	}
 }
